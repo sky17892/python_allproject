@@ -1,3 +1,4 @@
+#메서드 클로저
 def make_counter():
     count = 0
 
@@ -21,6 +22,7 @@ print(counter2())
 print(counter2())
 print(counter2())
 
+#클래스 클로저
 class Counter:
     def __init__(self):
         self.count = 0
